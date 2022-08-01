@@ -1,0 +1,28 @@
+{
+  "name": "vite-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev2": "node ./bin/vite-dev -r /Users/guanyu/code/ares-webapp/zhinan-njk/views/src/pc/index",
+    "dev": "node ./bin/vite-dev -r /Users/guanyu/code/guanyu/vite-peact-project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuanyuChen/vite-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuanyuChen/vite-dev/issues"
+  },
+  "homepage": "https://github.com/GuanyuChen/vite-dev#readme",
+  "dependencies": {
+    "@preact/preset-vite": "^2.1.0",
+    "commander": "^8.0.0",
+    "vite": "^2.4.0"
+  }
+}
